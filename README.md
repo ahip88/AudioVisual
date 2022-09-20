@@ -48,17 +48,17 @@ pip install -r requirements.txt
 
 * To run the tutorial:
 ```
-python "..yourFullPath/tutorial.py" When_They_Come_For_Me
+python "..yourFullPath/AudioVisual/tutorial.py" When_They_Come_For_Me
 ```
 
 * For the AudioVisual only:
 ```
-python "..yourFullPath/audio_visual_v5.py" sync_test
+python "..yourFullPath/AudioVisual/audio_visual_v5.py" sync_test
 ```
 
 * To process your own songs, place them in AudioVisual Folder and run:
 ```
-python "..yourFullPath/Process.py" File
+python "..yourFullPath/AudioVisual/Process.py" File
 ```
 Do Not include the extension, it will be searched for.
 
