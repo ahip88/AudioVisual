@@ -84,3 +84,4 @@ ahi.p88@gmail.com
 * [madmom](https://github.com/CPJKU/madmom)
 * [carat](https://github.com/mrocamora/carat)
 * [musicsections](https://github.com/justinsalamon/musicseg_deepemb)
+* [demucs](https://github.com/facebookresearch/demucs)

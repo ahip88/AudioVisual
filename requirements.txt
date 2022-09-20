@@ -4,3 +4,4 @@ madmom
 screeninfo
 audioio
 carat
+demucs
