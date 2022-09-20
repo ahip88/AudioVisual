@@ -100,7 +100,7 @@ visual_0 = panel.visual('path', transform=None, depth_test=True)
 
 visual_1 = panel.visual('marker', transform=None, depth_test=True)
 
-visual_2 = panel.visual('text', transform=None, depth_test=True)
+#visual_2 = panel.visual('text', transform=None, depth_test=True)
 
 
 
@@ -1014,20 +1014,20 @@ def draw():
     
     
     ####Text + marker
-    if(draw_mode == 5):
-        s = str(np.argmax(_track1_beat_types))
-    else:
-        s = str(round(history__v0_type1_y[-1]/(1e-6+ np.max(history__v0_type1_y)),2))
-        
-    
-    if(draw_mode == 0):
-        s = "f (Hz) < perceptible"
-        draw_Text_at(visual_2, s, np.array([2.5,1.0,0]),32*(1+round(history__v0_type1_y[-1]/(1e-6+ np.max(history__v0_type1_y)),2)), color[-1,:], 0)
-    elif(draw_mode == 1):
-        draw_Text_at(visual_2, s, pos_2[-1,:] + np.array([0.75,0,0]), 40, color[-1,:], 0)
-    else:
-        draw_Text_at(visual_2, s, pos_2[-1,:] + np.array([0.5,0,0]), 32, color[-1,:], 0)
-        
+    #if(draw_mode == 5):
+    #    s = str(np.argmax(_track1_beat_types))
+    #else:
+    #    s = str(round(history__v0_type1_y[-1]/(1e-6+ np.max(history__v0_type1_y)),2))
+    #    
+    #
+    #if(draw_mode == 0):
+    #    s = "f (Hz) < perceptible"
+    #    draw_Text_at(visual_2, s, np.array([2.5,1.0,0]),32*(1+round(history__v0_type1_y[-1]/(1e-6+ np.max(history__v0_type1_y)),2)), color[-1,:], 0)
+    #elif(draw_mode == 1):
+    #    draw_Text_at(visual_2, s, pos_2[-1,:] + np.array([0.75,0,0]), 40, color[-1,:], 0)
+    #else:
+    #    draw_Text_at(visual_2, s, pos_2[-1,:] + np.array([0.5,0,0]), 32, color[-1,:], 0)
+    #    
     
     
     pos_2[-1,0] = history__v1_type1_x[-1]*10.0 + 2.5
@@ -1046,11 +1046,11 @@ def draw():
     
     
     
-    if(draw_mode == 5):
-        s = str(np.argmax(_track2_beat_types))
-    else:
-        s = str(round(history__v1_type1_y[-1]/(1e-6+ np.max(history__v1_type1_y)),2))
-    draw_Text_at(visual_2, s, pos_2[-1,:] + np.array([0.5,0,0]), 32, color[-1,:], 1)
+    #if(draw_mode == 5):
+    #    s = str(np.argmax(_track2_beat_types))
+    #else:
+    #    s = str(round(history__v1_type1_y[-1]/(1e-6+ np.max(history__v1_type1_y)),2))
+    #draw_Text_at(visual_2, s, pos_2[-1,:] + np.array([0.5,0,0]), 32, color[-1,:], 1)
     
 
     
@@ -1068,11 +1068,11 @@ def draw():
     
     draw_Dots_at(visual_1, pos_2[-1,:], ms, color[-1], 1)
     
-    if(draw_mode == 5):
-        s = str(np.argmax(_track3_beat_types))
-    else:
-        s = str(round(history__v2_type1_y[-1]/(1e-6+ np.max(history__v2_type1_y)),2))
-    draw_Text_at(visual_2, s, pos_2[-1,:] + np.array([0.5,0,0]), 32, color[-1,:], 1)
+    #if(draw_mode == 5):
+    #    s = str(np.argmax(_track3_beat_types))
+    #else:
+    #    s = str(round(history__v2_type1_y[-1]/(1e-6+ np.max(history__v2_type1_y)),2))
+    #draw_Text_at(visual_2, s, pos_2[-1,:] + np.array([0.5,0,0]), 32, color[-1,:], 1)
     
     
     pos_2[-1,0] = history__v3_type1_x[-1]*10.0 + 2.5
@@ -1090,12 +1090,12 @@ def draw():
     
     draw_Dots_at(visual_1, pos_2[-1,:], ms, color[-1], 1)
     
-    if(draw_mode == 5):
-        s = str(np.argmax(_track4_beat_types))
-    else:
-        s = str(round(history__v3_type1_y[-1]/(1e-6+ np.max(history__v3_type1_y)),2))
-        
-    draw_Text_at(visual_2, s, pos_2[-1,:] + np.array([0.5,0,0]), 32, color[-1,:], 1)
+    #if(draw_mode == 5):
+    #    s = str(np.argmax(_track4_beat_types))
+    #else:
+    #    s = str(round(history__v3_type1_y[-1]/(1e-6+ np.max(history__v3_type1_y)),2))
+    #    
+    #draw_Text_at(visual_2, s, pos_2[-1,:] + np.array([0.5,0,0]), 32, color[-1,:], 1)
     
     
     

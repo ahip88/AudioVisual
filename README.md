@@ -62,6 +62,10 @@ python Process.py File
 ```
 Do Not include the extension, it will be searched for.
 
+## Issues
+If it's lagging (fps < 300) you're probably being spammed vklite validation warnings.
+Follow the instructions to build datoviz from Source (updating anything Vulkan related)
+
 
 ## Authors
 
