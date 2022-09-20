@@ -6,9 +6,6 @@
 
 Testbed for deep-generative AudioVisuals
 
-## Description
-
-A template to get started syncing your Audio to Visuals
 
 ### Dependencies
 
@@ -42,6 +39,7 @@ For Windows:
 
 followed by 
 ```
+git clone https://github.com/ahip88/AudioVisual.git
 cd AudioVisual
 pip install -r requirements.txt
 ```
