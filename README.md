@@ -8,7 +8,7 @@ Testbed for deep-generative AudioVisuals
 
 
 ### Dependencies
-
+* Python 3.8
 * Datoviz
 * madmom
 * carat
