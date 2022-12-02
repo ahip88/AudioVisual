@@ -6,6 +6,9 @@
 
 Testbed for deep-generative AudioVisuals
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=U3JWbTHaj4M
+" target="_blank"><img src="http://img.youtube.com/vi/U3JWbTHaj4M/0.jpg" 
+alt="Audio Visualizer | How to" width="480" height="360" border="1" /></a>
 
 ### Dependencies
 * Python 3.8
